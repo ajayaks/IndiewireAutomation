@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="staging.indiewire.com" />
+<title>PagesTest</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">PagesTest</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://staging.indiewire.com/leonardmaltin/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>20000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Leonard Maltin's Movie Crazy | Leonard Maltin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=hat</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#hat div.ad </td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.ad div div iframe[id^='google_ads_iframe_/']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=masthead</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#masthead div.head.clrfix div a[href^='/leonardmaltin/']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#masthead div.head.clrfix div.social.clrfix div.about a:contains('About Leonard Maltin')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#masthead div.pushdownAd div script</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=pageWrapper</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div#navWrapper&nbsp;&nbsp;ul.blogNav li div.tab a[href^='/leonardmaltin/']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div.mod.dynamic3&nbsp;&nbsp;div.scroll-hori div.items ul li a[href^='/leonardmaltin']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div.twoColLayout div.row1 a img[alt='leonardmaltin']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div.twoColLayout div.row1 div.boxlist.clrfix.blog-tag-module h3 span a:contains('Categories')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div.twoColLayout div.row1 div.boxlist.clrfix.blog-tag-module ul li&nbsp;&nbsp;a[href^='/leonardmaltin/']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div.twoColLayout div.row1 div.popular-posts&nbsp;&nbsp;h3:contains('Popular Posts')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div.twoColLayout div.row1 div.popular-posts div.scroll-vert div.items ul </td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div.twoColLayout div.row1 center p a img </td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div div.twoColLayout div.row2 div.blog-story div.blog-story-wrapper div.story-photo a[href^='/leonardmaltin'] img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div#col2 div.mod.get-social h3 span:contains('Follow Me')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.mod.get-social ul.social li.like</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.mod.get-social ul.social li.tweet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.mod.get-social ul.social&nbsp;&nbsp;li.email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.mod.get-social ul.social li.subscribe</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div#col2 div.mod.clrfix h3 span:contains('Email Updates')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.checkwrap label[for='lmDaily']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.checkwrap input.email, input.blue-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div#col2 div.mod.facebook.clrfix div.fb-like-box iframe</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div#col2 div.mod div.sailthru-container.newsletter div.sailthru-form-container</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div#col2 div.mod.rr-300x600-ad div div iframe[id^='google_ads_iframe_/']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div#col2 div.popular-posts h3 span:contains('Popular Posts')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div#col2 div.popular-posts div.scroll-vert div.items ul </td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.blogs-wrapper.clrfix&nbsp;&nbsp;h3 span:contains('Around The Network')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#pageWrapper div.featured-blogs.clrfix div.blogs-wrapper.clrfix&nbsp;&nbsp;ul.five.clrfix li div.photo a img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.page-foot-nav.clrfix div.pagination ul li, li.disabled, li.count, li.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.network.clrfix h3:contains('the network')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.network.clrfix div.content ul li a </td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.indi-cats div.indie h3:contains('indiewire')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.indi-cats ul li a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.indi-cats div.cats h3:contains('categories')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.indi-cats ul li a</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
